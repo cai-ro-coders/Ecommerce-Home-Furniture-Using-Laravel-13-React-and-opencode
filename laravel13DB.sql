@@ -1141,8 +1141,6 @@ CREATE TABLE `settings` (
 --
 
 INSERT INTO `settings` (`id`, `key`, `group`, `value`, `created_at`, `updated_at`) VALUES
-(1, 'stripe_publishable_key', 'payment', 'pk_test', NULL, '2026-05-06 23:26:31'),
-(2, 'stripe_secret_key', 'payment', 'sk_test', NULL, '2026-05-06 23:26:31'),
 (3, 'stripe_webhook_secret', 'payment', NULL, NULL, '2026-05-06 23:26:31'),
 (4, 'stripe_status', 'payment', 'active', NULL, '2026-05-06 23:26:31');
 
